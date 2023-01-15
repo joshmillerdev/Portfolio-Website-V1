@@ -114,14 +114,14 @@
 .project {
     display: grid;
     grid-template-columns: 33% 67%;
-    grid-template-rows: repeat(3, 20px) repeat(3, 10rem);
-    gap: 20px;
+    grid-template-rows: repeat(3, 2rem) 2rem repeat(2, 10rem);
+    gap: .5rem;
     margin-top: 44px;
     justify-items: center;
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    grid-auto-rows: 10rem;
+    grid-auto-rows: 2rem repeat(2, 10rem);
     grid-auto-flow: row;
     grid-template-areas:
     "title abstract"
@@ -142,17 +142,31 @@
 }
 .pSkills {
     grid-area: keySkills;
+    width: 100%;
+    /* padding: 0 .5rem; */
+    display: flex;
+    justify-content: space-between;
+
 }
 .pNotes {
     grid-area: notes;
 }
 .pAnnotations {
     grid-area: annotations;
+    display: flex;
+    align-items: center;
+}
+.pAnnotation li {
+    padding: 1em;
 }
 .pScreenshot {
     grid-area: screenshot;
+    display: flex;
+    align-items: flex-end;
 }
-
+.pScreenshot img {
+    width: 100%;
+}
 
 .project h3 {
     font-family: "London Tube Normal";
