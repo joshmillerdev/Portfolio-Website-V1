@@ -13,7 +13,7 @@ function increaseOpacity() {
 //     document.getElementById("elevator").style.paddingTop = `${padTop}px`;
 // }
 function scrollDoc () {
-    let scrollHeight = (window.visualViewport.height - 310);
+    let scrollHeight = (window.visualViewport.height - 310 -70);
     let docHeight = (document.documentElement.scrollHeight - window.visualViewport.height);
     let scrollPercent = (document.documentElement.scrollTop / docHeight);
     let padTop = (scrollPercent * scrollHeight)*.8 +50;

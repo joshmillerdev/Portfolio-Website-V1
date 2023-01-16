@@ -16,7 +16,7 @@ font-family: 'Staatliches', cursive;    /* CAPS BLOCK*/
     }
 
     /* NAVBAR:  */
-    
+
 /* PROFILE PIC:  */
 #myVideo {
     object-fit: fill;
@@ -180,4 +180,12 @@ main {
 .project h4 {
     font-family: "London Tube Normal";
     font-size: 1.25rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    /* justify-items: center; */
+    align-items: center;
+    height: 60px;
 }
