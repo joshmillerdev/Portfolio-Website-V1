@@ -181,11 +181,3 @@ main {
     font-family: "London Tube Normal";
     font-size: 1.25rem;
 }
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    /* justify-items: center; */
-    align-items: center;
-    height: 60px;
-}
