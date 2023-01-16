@@ -2,7 +2,7 @@
 // document.getElementById("myVideo").playbackRate = 1;
 
 function increaseOpacity() {
-    document.getElementById("myVideo").style.opacity = .3 + (window.scrollY/700);
+    document.getElementById("myVideo").style.opacity = .4 + (window.scrollY/700);
 }
 
 // function scrollDoc () {
@@ -23,7 +23,6 @@ function scrollDoc () {
 // function scrollNav () {
 //     document.getElementById("navbar").style.top = "0px";
 // }
-
 document.onwheel = () => {
     increaseOpacity();
     scrollDoc();
